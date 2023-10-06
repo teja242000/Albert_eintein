@@ -1,0 +1,85 @@
+.container {
+    padding: auto;
+    margin: 0%;
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+.footer-space {
+    margin-top: 100px; /* Adjust the margin-top as needed for the desired space */
+}
+#header {
+    text-align: center;
+    height: auto;
+    background-color: #333; /* Dark gray background color */
+    color: white; /* White text color */
+}
+
+.nav {
+    background-color: #f5f5f5; /* Light gray background color */
+}
+
+#navbar {
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+.a-class {
+    text-decoration: none;
+    padding: auto;
+    padding-bottom: 2px;
+    color: #333; /* Dark gray text color */
+}
+
+.content {
+    background-color: #faebd7; /* Antique white background color */
+}
+
+.content1 {
+    background-color: #fff5ee; /* Seashell background color */
+}
+
+.content2 {
+    background-color: #ffe4c4; /* Bisque background color */
+}
+
+.content3 {
+    background-color: #c0c0c0; /* Silver background color */
+}
+
+.content4 {
+    background-color: #ffc0cb; /* Pink background color */
+}
+
+.section-inner--content {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.content5 {
+    background-color: #a9a9a9; /* Dark gray background color */
+    color: white; /* White text color */
+}
+
+.content6 {
+    background-color: #ffffe0; /* Light yellow background color */
+}
+
+a:hover {
+    background-color: #00ced1; /* Cyan background color on hover */
+    color: white; /* White text color on hover */
+}
+
+@media only screen and (max-width: 950px) {
+    .container {
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .container {
+        display: grid;
+    }
+}
